@@ -1,4 +1,3 @@
-
 /* common shared styles */
 body {
     font-family: 'Roboto Slab', serif;
@@ -49,86 +48,124 @@ nav a {
 }
 
 /* header related styles */
-.header{
+.header {
     background-color: black;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-greeting{
+
+.banner-greeting {
     color: #b7aeae;
     font-size: 45px;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     color: white;
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-dscrpt{
+
+.banner-dscrpt {
     color: white;
 
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
-.banner .propic{
+
+.banner .propic {
     width: 500px;
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.section-title{
+
+main section{
+    margin-top: 130px;
+}
+
+.section-title {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
     background: #FD6E0A;
 }
 
-.section-description{
+.section-description {
     text-align: center;
     font-size: 18px;
     background: #FD6E0A;
-    
+
 }
 
 /* about section styles */
-.about{
+.about {
     padding: 130px;
     background: #FD6E0A;
     color: black;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
     background: #FD6E0A
 }
 
-.about-info{
+.about-info {
     text-align: center;
     background: #FD6E0A
 }
-.info-title{
-    background: #FD6E0A
-    color: white
+
+
+/* what I do styles */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
 }
-.info-description{
+
+.skill {
+    padding: 30px;
+    background: black;
+    color: white;
+    box-shadow: 0px 6px 50px 0px #FD6E0A;
+}
+
+.skill-description {
+color: white;
+}
+
+.info-title {
     background: #FD6E0A
 }
 
-#work-dscrpt{
+.info-description {
+    background: #FD6E0A
+}
+
+#work-dscrpt {
     padding: 30px 150px;
+}
+
+/* Resume Section styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    
 }
