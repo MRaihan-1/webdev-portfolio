@@ -1,3 +1,4 @@
+
 /* common shared styles */
 body {
     font-family: 'Roboto Slab', serif;
@@ -49,7 +50,7 @@ nav a {
 
 /* header related styles */
 .header{
-    background-color: rgb(20, 19, 19);
+    background-color: black;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -93,26 +94,41 @@ main{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    background: #FD6E0A;
 }
 
 .section-description{
     text-align: center;
     font-size: 18px;
+    background: #FD6E0A;
     
 }
 
 /* about section styles */
 .about{
     padding: 130px;
-    background:  rgb(20, 19, 19);
-    color: white;
+    background: #FD6E0A;
+    color: black;
 }
 
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    background: #FD6E0A
 }
 
 .about-info{
     text-align: center;
+    background: #FD6E0A
+}
+.info-title{
+    background: #FD6E0A
+    color: white
+}
+.info-description{
+    background: #FD6E0A
+}
+
+#work-dscrpt{
+    padding: 30px 150px;
 }
