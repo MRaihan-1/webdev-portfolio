@@ -50,9 +50,9 @@ nav a {
 /* header related styles */
 .header {
     background-color: black;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -211,7 +211,11 @@ footer{
 .footer-column{
     width: 50%;
 }
-.contact input, textarea{
+.social-links a{
+margin-right: 25px;
+
+}
+.contact input[type="text"], .contact input[type="email"] textarea{
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
